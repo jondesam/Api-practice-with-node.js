@@ -47,6 +47,7 @@ app.post("/", function(req, res){
     res.write("<h1>" + amount + crypto + " is currently worth " + price + fiat + "</h1>");
 
     res.send();
+    
     //console.log(price);
 
   });
